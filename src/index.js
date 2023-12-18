@@ -15,7 +15,7 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate persistor={persistedStore}>
-        <BrowserRouter basename="/water-tracker">
+        <BrowserRouter basename="/node_front_bc_57_yurii2007">
           <App />
         </BrowserRouter>
       </PersistGate>
